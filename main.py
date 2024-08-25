@@ -3,8 +3,10 @@ def test_function():
         print("Я в области видимости функции test_function")
     inner_faction()
 
+inner_faction() #NameError: name 'inner_faction' is not defined
 
-inner_faction()()
+test_function()
+
 
 
 
